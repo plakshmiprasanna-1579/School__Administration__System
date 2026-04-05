@@ -41,7 +41,7 @@ int idExists(struct Staff* root, int id) {
     return search(root, id) != NULL;
 }
 
-// 🔥 ROLE MENU
+//  ROLE MENU
 void chooseRole(char role[]) {
     int choice;
 
@@ -97,7 +97,7 @@ void addStaff() {
     fgets(name, sizeof(name), stdin);
     name[strcspn(name,"\n")] = '\0';
 
-    // 🔥 ROLE SELECTION
+    //  ROLE SELECTION
     chooseRole(role);
     if (role[0] == '\0') return;
 
@@ -145,7 +145,7 @@ void addStaff() {
     printf("Staff added successfully!\n");
 }
 
-// 🌳 DISPLAY TREE
+//  DISPLAY TREE
 void displayTree(struct Staff* root, int level, int isLast, int indent[]) {
     if (!root) return;
 
