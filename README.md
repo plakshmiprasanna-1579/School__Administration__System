@@ -258,11 +258,11 @@ Call respective function
 
 Repeat until exit
 
-⚠️ IMPORTANT DESIGN DECISION
+IMPORTANT DESIGN DECISION
 
 Deletion Rule:
 
-👉 Only leaf nodes can be deleted
+Only leaf nodes can be deleted
 
 Reason:
 
@@ -272,7 +272,7 @@ Avoids loss of subordinate data
 
 Keeps tree structure safe
 
-💻 HOW TO RUN THE CODE
+HOW TO RUN THE CODE
 
 Using VS Code:
 
