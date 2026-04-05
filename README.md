@@ -15,6 +15,7 @@ This project implements a University Administration Hierarchy System using a Tre
 It models a real-life university structure such as:
 
 VC → Dean → HOD → Professor → Assistant Professor → Lecturer
+
 The system supports CRUD operations including:
 
 Adding staff
