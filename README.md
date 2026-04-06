@@ -1,14 +1,14 @@
-TITLE
+→TITLE
 
 Administration Hierarchy System
 
-TEAM MEMBERS
+→TEAM MEMBERS
 
 P. Lakshmi Prasanna
 
 S. Arsheen
 
-PROBLEM STATEMENT
+→PROBLEM STATEMENT
 
 This project implements a University Administration Hierarchy System using a Tree Data Structure in C.
 
@@ -32,7 +32,7 @@ Counting staff by roles
 
 The program is menu-driven and demonstrates hierarchical relationships using pointers.
 
-DATA STRUCTURE USED
+→DATA STRUCTURE USED
 
 General Tree (Child-Sibling Representation)
 
@@ -48,7 +48,7 @@ child → Pointer to first subordinate
 
 sibling → Pointer to next staff at same level
 
-ALGORITHM EXPLANATION
+→ALGORITHM EXPLANATION
 
 1. Function: createNode()
 
@@ -275,7 +275,7 @@ Avoids loss of subordinate data
 
 Keeps tree structure safe
 
-HOW TO RUN THE CODE
+→COMPILATION INSTRUCTIONS
 
 Using VS Code:
 
@@ -297,7 +297,7 @@ Bash
 
 ./output
 
-Screenshots:
+→SCREENSHOTS:
 
 1. Adding Staff
 
