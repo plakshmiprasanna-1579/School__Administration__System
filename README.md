@@ -327,4 +327,7 @@ Screenshots:
 
 <img width="471" height="279" alt="image" src="https://github.com/user-attachments/assets/0b649f89-9484-416e-9576-35d491cb4e00" />
 
+4. Search
+
+<img width="449" height="251" alt="image" src="https://github.com/user-attachments/assets/14b9bc41-002e-4436-a1c5-73841849be54" />
 
