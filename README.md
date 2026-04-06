@@ -262,39 +262,39 @@
 
 →IMPORTANT DESIGN DECISION
 
-Deletion Rule:
+  Deletion Rule:
 
-• Only leaf nodes can be deleted
+   • Only leaf nodes can be deleted
 
-Reason:
+  Reason:
 
-• Prevents breaking hierarchy
+   • Prevents breaking hierarchy
 
-• Avoids loss of subordinate data
+   • Avoids loss of subordinate data
 
-• Keeps tree structure safe
+   • Keeps tree structure safe
 
 →COMPILATION INSTRUCTIONS
 
-Using VS Code:
+  Using VS Code:
 
-• Install C/C++ extension
+   • Install C/C++ extension
 
-• Install MinGW / GCC compiler
+   • Install MinGW / GCC compiler
 
-• Open project folder
+   • Open project folder
 
-Compile:
+  Compile:
 
-Bash
+   Bash
 
-gcc yourfile.c -o output
+   gcc yourfile.c -o output
 
-Run:
+   Run:
 
-Bash
+   Bash
 
-./output
+   ./output
 
 →SCREENSHOTS:
 
