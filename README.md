@@ -18,17 +18,17 @@ VC → Dean → HOD → Professor → Assistant Professor → Lecturer
 
 The system supports CRUD operations including:
 
-°Adding staff
+• Adding staff
 
-Updating staff details
+• Updating staff details
 
-Deleting staff (with constraints)
+• Deleting staff (with constraints)
 
-Searching staff
+• Searching staff
 
-Displaying hierarchy in tree format
+• Displaying hierarchy in tree format
 
-Counting staff by roles
+• Counting staff by roles
 
 The program is menu-driven and demonstrates hierarchical relationships using pointers.
 
@@ -38,15 +38,15 @@ General Tree (Child-Sibling Representation)
 
 Each node contains:
 
-ID → Unique identifier
+• ID → Unique identifier
 
-Name → Staff name
+• Name → Staff name
 
-Role → Position (VC / Dean / HOD / etc.)
+• Role → Position (VC / Dean / HOD / etc.)
 
-child → Pointer to first subordinate
+• child → Pointer to first subordinate
 
-sibling → Pointer to next staff at same level
+• sibling → Pointer to next staff at same level
 
 →ALGORITHM EXPLANATION
 
@@ -261,29 +261,29 @@ Call respective function
 
 Repeat until exit
 
-IMPORTANT DESIGN DECISION
+→IMPORTANT DESIGN DECISION
 
 Deletion Rule:
 
-Only leaf nodes can be deleted
+• Only leaf nodes can be deleted
 
 Reason:
 
-Prevents breaking hierarchy
+• Prevents breaking hierarchy
 
-Avoids loss of subordinate data
+• Avoids loss of subordinate data
 
-Keeps tree structure safe
+• Keeps tree structure safe
 
 →COMPILATION INSTRUCTIONS
 
 Using VS Code:
 
-Install C/C++ extension
+• Install C/C++ extension
 
-Install MinGW / GCC compiler
+• Install MinGW / GCC compiler
 
-Open project folder
+• Open project folder
 
 Compile:
 
