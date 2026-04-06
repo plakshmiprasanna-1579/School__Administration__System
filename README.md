@@ -298,6 +298,10 @@ Bash
 ./output
 
 Screenshots:
+
 1.Adding Staff
+
+<img width="488" height="461" alt="image" src="https://github.com/user-attachments/assets/4a5f68fd-1522-45f7-9252-f24443643132" />
+
   
 
