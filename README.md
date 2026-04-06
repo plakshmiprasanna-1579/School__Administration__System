@@ -337,3 +337,4 @@ Screenshots:
 
 6. Display
 
+<img width="445" height="302" alt="image" src="https://github.com/user-attachments/assets/6c89c8df-6dd0-4500-91e2-801c949ea5f1" />
