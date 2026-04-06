@@ -331,3 +331,9 @@ Screenshots:
 
 <img width="449" height="251" alt="image" src="https://github.com/user-attachments/assets/14b9bc41-002e-4436-a1c5-73841849be54" />
 
+5. Count by Role
+
+<img width="457" height="359" alt="image" src="https://github.com/user-attachments/assets/2ab437c8-8395-4834-a5f6-e3f5e3a82370" />
+
+6. Display
+
