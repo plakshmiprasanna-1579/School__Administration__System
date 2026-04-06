@@ -52,214 +52,213 @@ Each node contains:
 
 1. Function: createNode()
 
-  Steps:
+   Steps:
 
-    Allocate memory using malloc
+       Allocate memory using malloc
 
-    Assign ID, name, and role
+       Assign ID, name, and role
 
-    Set child = NULL
+       Set child = NULL
 
-    Set sibling = NULL
+       Set sibling = NULL
 
-    Return the new node
+       Return the new node
 
 2. Function: search(root, id)
 
-Steps:
+   Steps:
 
-If root is NULL → return NULL
+       If root is NULL → return NULL
 
-If ID matches → return node
+       If ID matches → return node
 
-Recursively search:
+       Recursively search:
 
-First in child
+       First in child
 
-Then in sibling
+       Then in sibling
 
-Return result
+       Return result
 
 3. Function: addStaff()
 
-Steps:
+    Steps:
 
-Input ID and name
+       Input ID and name
 
-Check duplicate ID
+       Check duplicate ID
 
-Select role using menu
+       Select role using menu
 
-Create new node
+       Create new node
 
-Root Condition:
+       Root Condition:
 
-If tree is empty:
+           If tree is empty:
 
-Only VC can be root
+              Only VC can be root
 
-For other nodes:
+           For other nodes:
 
-Input parent ID
+              Input parent ID
 
-Search parent node
+              Search parent node
 
-Validate hierarchy:
+       Validate hierarchy:
 
-VC → Dean
+           VC → Dean
 
-Dean → HOD
+           Dean → HOD
 
-HOD → Professor
+           HOD → Professor
 
-Professor → Assistant Professor
+           Professor → Assistant Professor
 
-Assistant Professor → Lecturer
+           Assistant Professor → Lecturer
 
-Insert node:
+       Insert node:
 
-If no child → attach directly
+           If no child → attach directly
 
-Else → insert at end of sibling list
+           Else → insert at end of sibling list
 
 4. Function: validHierarchy(parent, child)
 
-Steps:
+    Steps:
 
-Check valid role relationship
+       Check valid role relationship
 
-Return 1 if valid
+         Return 1 if valid
 
-Else return 0
+           Else return 0
 
 5. Function: displayTree(root, level)
 
-Steps:
+   Steps:
 
-If root is NULL → return
+       If root is NULL → return
 
-Print indentation based on level
+          Print indentation based on level
 
-Print node (ID, Name, Role)
+       Print node (ID, Name, Role)
 
-Recursively:
+       Recursively:
 
-Display child (level + 1)
+           Display child (level + 1)
 
-Display sibling (same level)
+           Display sibling (same level)
 
-Displays hierarchy in tree format
+       Displays hierarchy in tree format
 
 6. Function: updateStaff()
 
-Steps:
+    Steps:
 
-Input ID
+       Input ID
 
-Search node
+       Search node
 
-If found:
+       If found:
 
+           Input new name
 
-Input new name
+           Update value
 
-Update value
-
-Else print error
+       Else print error
 
 7. Function: deleteStaff()
 
-Steps:
+   Steps:
 
-Input ID
+       Input ID
 
-Check if tree is empty
+       Check if tree is empty
 
-Root Deletion:
+       Root Deletion:
 
-Allowed only if no children
+           Allowed only if no children
 
-Other Nodes:
+       Other Nodes:
 
-Call deleteNode()
+           Call deleteNode()
 
 8. Function: deleteNode(parent, node, id)
 
-Steps:
+    Steps:
 
-Traverse tree recursively
+       Traverse tree recursively
 
-If ID matches:
+       If ID matches:
 
-Check if node has children
+          Check if node has children
 
-If YES → deny deletion
+       If YES → deny deletion
 
-If NO:
+       If NO:
 
-Adjust sibling pointer
+           Adjust sibling pointer
 
-Remove node
+           Remove node
 
-Free memory
+           Free memory
 
-Continue recursion
+           Continue recursion
 
-Only leaf node deletion is allowed
+       Only leaf node deletion is allowed
 
 9. Function: countRoles()
 
-Steps:
+    Steps:
 
-Traverse entire tree
+       Traverse entire tree
 
-Count each role:
+       Count each role:
 
-VC
+          VC
 
-Dean
+          Dean
 
-HOD
+          HOD
 
-Professor
+          Professor
 
-Assistant Professor
+          Assistant Professor
 
-Lecturer
+          Lecturer
 
 10. Function: showCount()
 
-Steps:
+     Steps:
 
-Call countRoles()
+        Call countRoles()
 
-Display total count of each role
+        Display total count of each role
 
 11. Function: Main Menu
 
-Steps:
+    Steps:
 
-Display menu options:
+        Display menu options:
 
-1. Add Staff
+            1. Add Staff
 
-2. Display Hierarchy
+            2. Display Hierarchy
 
-3. Update Staff
+            3. Update Staff
 
-4. Delete Staff
+            4. Delete Staff
 
-5. Search Staff
+            5. Search Staff
 
-6. Count Staff by Role
+            6. Count Staff by Role
 
-7. Exit
+            7. Exit
 
-Take user input
+        Take user input
 
-Call respective function
+        Call respective function
 
-Repeat until exit
+        Repeat until exit
 
 →IMPORTANT DESIGN DECISION
 
