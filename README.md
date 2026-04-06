@@ -18,7 +18,7 @@ VC → Dean → HOD → Professor → Assistant Professor → Lecturer
 
 The system supports CRUD operations including:
 
-Adding staff
+°Adding staff
 
 Updating staff details
 
