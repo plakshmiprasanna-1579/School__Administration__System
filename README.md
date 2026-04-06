@@ -297,4 +297,7 @@ Bash
 
 ./output
 
+Screenshots:
+1.Adding Staff
+  
 
