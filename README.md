@@ -318,3 +318,8 @@ Screenshots:
 2. Deletion
 
 <img width="461" height="259" alt="image" src="https://github.com/user-attachments/assets/72553bf2-6f76-4739-9e34-33969b457fb6" />
+
+*
+
+<img width="468" height="251" alt="image" src="https://github.com/user-attachments/assets/3b32ab2d-5d29-44b7-9cfc-749cc9431db0" />
+
