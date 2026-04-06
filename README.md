@@ -1,52 +1,52 @@
 →TITLE
 
-Administration Hierarchy System
+   Administration Hierarchy System
 
 →TEAM MEMBERS
 
-P. Lakshmi Prasanna
+   P. Lakshmi Prasanna
 
-S. Arsheen
+   S. Arsheen
 
 →PROBLEM STATEMENT
 
-This project implements a University Administration Hierarchy System using a Tree Data Structure in C.
+   This project implements a University Administration Hierarchy System using a Tree Data Structure in C.
 
-It models a real-life university structure such as:
+   It models a real-life university structure such as:
 
-VC → Dean → HOD → Professor → Assistant Professor → Lecturer
+   VC → Dean → HOD → Professor → Assistant Professor → Lecturer
 
-The system supports CRUD operations including:
+   The system supports CRUD operations including:
 
-• Adding staff
+     • Adding staff
 
-• Updating staff details
+     • Updating staff details
 
-• Deleting staff (with constraints)
+     • Deleting staff (with constraints)
 
-• Searching staff
+     • Searching staff
 
-• Displaying hierarchy in tree format
+     • Displaying hierarchy in tree format
 
-• Counting staff by roles
+     • Counting staff by roles
 
-The program is menu-driven and demonstrates hierarchical relationships using pointers.
+   The program is menu-driven and demonstrates hierarchical relationships using pointers.
 
 →DATA STRUCTURE USED
 
-General Tree (Child-Sibling Representation)
+   General Tree (Child-Sibling Representation)
 
-Each node contains:
+   Each node contains:
 
-• ID → Unique identifier
+     • ID → Unique identifier
 
-• Name → Staff name
+     • Name → Staff name
 
-• Role → Position (VC / Dean / HOD / etc.)
+     • Role → Position (VC / Dean / HOD / etc.)
 
-• child → Pointer to first subordinate
+     • child → Pointer to first subordinate
 
-• sibling → Pointer to next staff at same level
+     • sibling → Pointer to next staff at same level
 
 →ALGORITHM EXPLANATION
 
