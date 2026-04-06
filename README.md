@@ -299,9 +299,11 @@ Bash
 
 Screenshots:
 
-1.Adding Staff
+1. Adding Staff
 
 <img width="488" height="461" alt="image" src="https://github.com/user-attachments/assets/4a5f68fd-1522-45f7-9252-f24443643132" />
+
+<img width="474" height="487" alt="image" src="https://github.com/user-attachments/assets/7a6276b8-03f6-4036-b642-67dad135e703" />
 
   
 
