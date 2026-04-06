@@ -311,5 +311,6 @@ Screenshots:
 
 <img width="514" height="496" alt="image" src="https://github.com/user-attachments/assets/68048d80-a780-4d8f-ae85-8f63aa421722" />
 
-  
+*  
 
+<img width="486" height="492" alt="image" src="https://github.com/user-attachments/assets/6a85a5b0-7bb9-496d-9758-52317d63d186" />
