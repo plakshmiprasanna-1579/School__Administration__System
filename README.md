@@ -52,17 +52,17 @@ Each node contains:
 
 1. Function: createNode()
 
-Steps:
+  Steps:
 
-Allocate memory using malloc
+    Allocate memory using malloc
 
-Assign ID, name, and role
+    Assign ID, name, and role
 
-Set child = NULL
+    Set child = NULL
 
-Set sibling = NULL
+    Set sibling = NULL
 
-Return the new node
+    Return the new node
 
 2. Function: search(root, id)
 
