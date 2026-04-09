@@ -9,7 +9,7 @@
    
 <hr style="height:8px; background-color:black; border:none;">
 
-→PROBLEM STATEMENT
+📄PROBLEM STATEMENT
 
    This project implements a University Administration Hierarchy System using a Tree Data Structure in C.
 
@@ -19,23 +19,23 @@
 
    The system supports CRUD operations including:
 
-     • Adding staff
+     • ➕ Adding staff
 
-     • Updating staff details
+     • ✏️ Updating staff details
 
-     • Deleting staff (with constraints)
+     • ❌ Deleting staff (with constraints)
 
-     • Searching staff
+     • 🔍 Searching staff
 
-     • Displaying hierarchy in tree format
+     • 🌳 Displaying hierarchy in tree format
 
-     • Counting staff by roles
+     • 📊 Counting staff by roles
 
    The program is menu-driven and demonstrates hierarchical relationships using pointers.
 
 <hr style="height:8px; background-color:black; border:none;">
 
-→DATA STRUCTURE USED
+💾DATA STRUCTURE USED
 
    General Tree (Child-Sibling Representation)
 
@@ -53,7 +53,7 @@
 
 <hr style="height:8px; background-color:black; border:none;">
 
-→ALGORITHM EXPLANATION
+🧩ALGORITHM EXPLANATION
 
 1. Function: createNode()
 
@@ -287,7 +287,7 @@
 
   <hr style="height:5px; background-color:white; border:none;">
 
-→IMPORTANT DESIGN DECISION
+⚙️IMPORTANT DESIGN DECISION
 
   Deletion Rule:
 
@@ -303,7 +303,7 @@
    
 <hr style="height:8px; background-color:black; border:none;">
 
-→COMPILATION INSTRUCTIONS
+💻COMPILATION INSTRUCTIONS
 
   Using VS Code:
 
@@ -327,7 +327,7 @@
 
 <hr style="height:8px; background-color:black; border:none;">
 
-→SCREENSHOTS:
+🖼️SCREENSHOTS:
 
 1. Adding Staff
 
