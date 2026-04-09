@@ -1,6 +1,8 @@
 
 🏛️Administration hierarchy system  
 
+<hr style="height:8px; background-color:black; border:none;">
+
 👥TEAM MEMBERS
 
    P. Lakshmi Prasanna
@@ -9,27 +11,32 @@
    
 <hr style="height:8px; background-color:black; border:none;">
 
-📄PROBLEM STATEMENT
+❗ Problem Statement
 
-   This project implements a University Administration Hierarchy System using a Tree Data Structure in C.
+Managing university staff hierarchy manually is difficult and inefficient.
+There is no proper way to maintain relationships like VC → Dean → HOD → Faculty.
 
-   It models a real-life university structure such as:
+Traditional data structures like arrays and linked lists cannot efficiently represent hierarchical relationships.
 
-   VC → Dean → HOD → Professor → Assistant Professor → Lecturer
+👉 Therefore, this project provides a tree-based system to:
 
-   The system supports CRUD operations including:
+    Maintain structured hierarchy
+    
+    Ensure valid role relationships
 
-     • ➕ Adding staff
+    The system supports CRUD operations including:
 
-     • ✏️ Updating staff details
+       • ➕ Adding staff
 
-     • ❌ Deleting staff (with constraints)
+       • ✏️ Updating staff details
 
-     • 🔍 Searching staff
+       • ❌ Deleting staff (with constraints)
 
-     • 🌳 Displaying hierarchy in tree format
+       • 🔍 Searching staff
 
-     • 📊 Counting staff by roles
+       • 🌳 Displaying hierarchy in tree format
+
+       • 📊 Counting staff by roles
 
    The program is menu-driven and demonstrates hierarchical relationships using pointers.
 
@@ -50,6 +57,14 @@
      • child → Pointer to first subordinate
 
      • sibling → Pointer to next staff at same level
+
+👉 This structure allows:
+
+   •  Multiple children
+    
+   •  Efficient memory usage
+    
+   •  Easy traversal
 
 <hr style="height:8px; background-color:black; border:none;">
 
@@ -305,25 +320,70 @@
 
 💻COMPILATION INSTRUCTIONS
 
-  Using VS Code:
+  Programming Language:C
 
-   • Install C/C++ extension
+Compiler:
+GCC / MinGW / CodeBlocks / VS Code C Compiler
 
-   • Install MinGW / GCC compiler
+Header Files Used:
 
-   • Open project folder
+stdio.h
 
-  Compile:
+stdlib.h
 
-   Bash
+string.h
 
-   gcc yourfile.c -o output
+ctype.h
 
-   Run:
+Operating System:
+Windows / Linux / macOS
 
-   Bash
+File Used:
+main.c
 
-   ./output
+
+HOW TO RUN THE CODE
+
+If you are using VS Code:
+
+1. Install the C/C++ extension
+2. Install MinGW or any C compiler
+3. Open the project folder in VS Code
+4. Open terminal in VS Code
+5. Compile the code:
+   gcc main.c -o program
+6. Run the program:
+   ./program
+
+
+If you are using CodeBlocks:
+
+1. Open CodeBlocks
+2. Create a new C project
+3. Copy the code into main.c
+4. Click Build and Run
+
+
+If you are using Command Prompt (Windows):
+
+1. Install MinGW
+2. Open Command Prompt
+3. Go to your project folder:
+   cd path_to_your_folder
+4. Compile:
+   gcc main.c -o program
+5. Run:
+   program
+
+
+If you are using Linux / macOS:
+
+1. Open Terminal
+2. Go to your project folder
+3. Compile:
+   gcc main.c -o program
+4. Run:
+   ./program
 
 <hr style="height:8px; background-color:black; border:none;">
 
