@@ -7,7 +7,7 @@
 
    S. Arsheen
    
-   <hr style="height:8px; background-color:black; border:none;">
+<hr style="height:8px; background-color:black; border:none;">
 
 →PROBLEM STATEMENT
 
@@ -33,6 +33,8 @@
 
    The program is menu-driven and demonstrates hierarchical relationships using pointers.
 
+<hr style="height:8px; background-color:black; border:none;">
+
 →DATA STRUCTURE USED
 
    General Tree (Child-Sibling Representation)
@@ -49,6 +51,8 @@
 
      • sibling → Pointer to next staff at same level
 
+<hr style="height:8px; background-color:black; border:none;">
+
 →ALGORITHM EXPLANATION
 
 1. Function: createNode()
@@ -64,6 +68,8 @@
        Set sibling = NULL
 
        Return the new node
+   
+  <hr style="height:5px; background-color:white; border:none;">
 
 2. Function: search(root, id)
 
@@ -80,6 +86,8 @@
        Then in sibling
 
        Return result
+   
+   <hr style="height:5px; background-color:white; border:none;">
 
 3. Function: addStaff()
 
@@ -123,6 +131,8 @@
 
            Else → insert at end of sibling list
 
+   <hr style="height:5px; background-color:white; border:none;">
+
 4. Function: validHierarchy(parent, child)
 
     Steps:
@@ -132,6 +142,8 @@
          Return 1 if valid
 
            Else return 0
+
+   <hr style="height:5px; background-color:white; border:none;">
 
 5. Function: displayTree(root, level)
 
@@ -151,6 +163,8 @@
 
        Displays hierarchy in tree format
 
+   <hr style="height:5px; background-color:white; border:none;">
+
 6. Function: updateStaff()
 
     Steps:
@@ -167,6 +181,8 @@
 
        Else print error
 
+   <hr style="height:5px; background-color:white; border:none;">
+
 7. Function: deleteStaff()
 
    Steps:
@@ -182,6 +198,8 @@
        Other Nodes:
 
            Call deleteNode()
+
+  <hr style="height:5px; background-color:white; border:none;">
 
 8. Function: deleteNode(parent, node, id)
 
@@ -207,6 +225,8 @@
 
        Only leaf node deletion is allowed
 
+  <hr style="height:5px; background-color:white; border:none;">
+
 9. Function: countRoles()
 
     Steps:
@@ -227,6 +247,8 @@
 
           Lecturer
 
+  <hr style="height:5px; background-color:white; border:none;">
+
 10. Function: showCount()
 
      Steps:
@@ -234,6 +256,8 @@
         Call countRoles()
 
         Display total count of each role
+
+  <hr style="height:5px; background-color:white; border:none;">
 
 11. Function: Main Menu
 
@@ -261,6 +285,8 @@
 
         Repeat until exit
 
+  <hr style="height:5px; background-color:white; border:none;">
+
 →IMPORTANT DESIGN DECISION
 
   Deletion Rule:
@@ -274,6 +300,8 @@
    • Avoids loss of subordinate data
 
    • Keeps tree structure safe
+   
+<hr style="height:8px; background-color:black; border:none;">
 
 →COMPILATION INSTRUCTIONS
 
@@ -296,6 +324,8 @@
    Bash
 
    ./output
+
+<hr style="height:8px; background-color:black; border:none;">
 
 →SCREENSHOTS:
 
