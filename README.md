@@ -69,7 +69,7 @@
 
        Return the new node
    
-  <hr style="height:5px; background-color:white; border:none;">
+   <hr style="height:5px; background-color:white; border:none;">
 
 2. Function: search(root, id)
 
@@ -199,7 +199,7 @@
 
            Call deleteNode()
 
-  <hr style="height:5px; background-color:white; border:none;">
+   <hr style="height:5px; background-color:white; border:none;">
 
 8. Function: deleteNode(parent, node, id)
 
@@ -225,7 +225,7 @@
 
        Only leaf node deletion is allowed
 
-  <hr style="height:5px; background-color:white; border:none;">
+   <hr style="height:5px; background-color:white; border:none;">
 
 9. Function: countRoles()
 
@@ -247,7 +247,7 @@
 
           Lecturer
 
-  <hr style="height:5px; background-color:white; border:none;">
+    <hr style="height:5px; background-color:white; border:none;">
 
 10. Function: showCount()
 
@@ -257,7 +257,7 @@
 
         Display total count of each role
 
-  <hr style="height:5px; background-color:white; border:none;">
+    <hr style="height:5px; background-color:white; border:none;">
 
 11. Function: Main Menu
 
