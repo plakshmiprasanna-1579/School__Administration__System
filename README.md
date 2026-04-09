@@ -1,5 +1,5 @@
 
-  🏛️ Administration Hierarchy System
+🏛️Administration hierarchy system  
 
 👥TEAM MEMBERS
 
