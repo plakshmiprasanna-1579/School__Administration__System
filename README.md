@@ -69,7 +69,7 @@
 
        Return the new node
    
-   <hr style="height:5px; background-color:white; border:none;">
+   <hr style="height:5px; background-color:blue; border:none;">
 
 2. Function: search(root, id)
 
